@@ -69,6 +69,22 @@ header p {
 
 /* MAIN */
 
+a.back-to-home {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  position: fixed;
+  bottom: 20px;
+  left: 14px;
+  border-radius: 50%;
+  background: #fff;
+  color: #555;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
 main {
   background: #f6f7fa;
   display: flex;
@@ -79,7 +95,7 @@ main {
 /* SECTION */
 
 section {
-  padding: 20px 16px;
+  padding: 32px 16px;
   border-bottom: 1px solid #d9dbdc;
   display: flex;
   flex-direction: column;
@@ -135,6 +151,8 @@ section img.photo {
   margin-bottom: 8px;
   max-width: 340px;
   border-radius: 38px;
+
+  border: 1px solid #ddd;
 }
 
 section img.icon {
